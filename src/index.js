@@ -772,7 +772,7 @@ class Eagle {
     let _letters = [];
     let result = {
       word,
-      wide: cangjie['mountain'],
+      wide: cangjie['heart'],
       web: []
     };
     
@@ -788,19 +788,19 @@ class Eagle {
     if (n.length >= 2) {
       switch(n[1]) {
         case 'value':
-          result.wide = cangjie['earth'];
+          result.wide = cangjie['wood'];
           break;
 
         case 'function':
-          result.wide = cangjie['people'];
+          result.wide = cangjie['middle'];
           break;
 
         case 'behavior':
-          result.wide = cangjie['female'];
+          result.wide = cangjie['bow'];
           break;
 
         case 'result':
-          result.wide = cangjie['one'];
+          result.wide = cangjie['corpse'];
           break;
       }
     }
