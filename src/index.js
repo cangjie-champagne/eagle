@@ -340,7 +340,7 @@ class Eagle {
     let _letters = [];
     let result = {
       word,
-      wide: cangjie[''],
+      wide: cangjie['hand'],
       web: []
     };
     
@@ -356,19 +356,19 @@ class Eagle {
     if (n.length >= 2) {
       switch(n[1]) {
         case 'value':
-          result.wide = cangjie[''];
+          result.wide = cangjie['bow'];
           break;
 
         case 'function':
-          result.wide = cangjie[''];
+          result.wide = cangjie['dagger-axe'];
           break;
 
         case 'behavior':
-          result.wide = cangjie[''];
+          result.wide = cangjie['people'];
           break;
 
         case 'result':
-          result.wide = cangjie[''];
+          result.wide = cangjie['disaster'];
           break;
       }
     }
@@ -576,7 +576,7 @@ class Eagle {
     let _letters = [];
     let result = {
       word,
-      wide: cangjie[''],
+      wide: cangjie['hand'],
       web: []
     };
     
@@ -592,19 +592,19 @@ class Eagle {
     if (n.length >= 2) {
       switch(n[1]) {
         case 'value':
-          result.wide = cangjie[''];
+          result.wide = cangjie['heart'];
           break;
 
         case 'function':
-          result.wide = cangjie[''];
+          result.wide = cangjie['corpse'];
           break;
 
         case 'behavior':
-          result.wide = cangjie[''];
+          result.wide = cangjie['day'];
           break;
 
         case 'result':
-          result.wide = cangjie[''];
+          result.wide = cangjie['twenty'];
           break;
       }
     }
